@@ -1,0 +1,49 @@
+stack =[]
+def push(element):
+    stack.append(element)
+def peek():
+    if len(stack) == 0 :
+        return "stack is empty:"
+    else:
+        return stack[-1]
+push(10)
+push(30)
+push(40)
+print("top element (peek):", peek())
+
+
+stack=[]
+stack.append("saba")
+print(stack)
+stack.append("vaani")
+print(stack)
+stack.append("swati")
+print(stack)
+stack.append("kashi")
+print(stack)
+stack.pop()
+print(stack)
+
+
+#queue
+queue=[]
+queue.append("akshu")
+print(queue)
+queue.append("radha")
+print(queue)
+queue.append("rani")
+print(queue)
+queue.append("vaani")
+print(queue)
+queue.append("riya")
+print(queue)
+queue.append("rubi")
+print(queue)
+queue.pop()
+print(queue)
+print(queue[0])
+print(queue[2])
+print(queue[3])
+queue.pop()
+print(queue)
+
